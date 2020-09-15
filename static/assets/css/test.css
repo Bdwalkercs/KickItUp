@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700");
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url(fontawesome-all.min.css);
 
 /*
@@ -85,12 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #4e598c;
-		background-image: linear-gradient(rgba(255, 140, 66, 0), rgba(78, 89, 140, 0)), url("/static/images/46.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: auto, cover;
-		position: relative;
+		background: #273039;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -105,14 +98,12 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: "Open Sans", Helvetica, sans-serif;
+		font-family: 'PT Sans', sans-serif;
 		font-size: 10pt;
 		line-height: 2em;
 		color: #7a8186;
 	}
 
-
-    }
 	h1, h2, h3, h4, h5, h6 {
 		line-height: 1em;
 		font-weight: bold;
@@ -1419,7 +1410,7 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		width: 936px;
+		width: 1200px;
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -1863,8 +1854,7 @@ input, select, textarea {
 		letter-spacing: 0.10em;
 		text-decoration: none;
 		font-size: 1.2em;
-		font-family: Oswald, Helvetica, sans-serif;
-		background: #2a5ba0;
+		background: #D86869;
 		color: #FFF;
 		border: none;
 		cursor: pointer;
@@ -1931,11 +1921,17 @@ input, select, textarea {
 
 	#logo {
 		position: relative;
-		padding: 3em 0em 5em 0em;
+		width:
 		letter-spacing: 3px;
 		text-align: center;
 		color: #FFF;
 		margin-top: 5em;
+		background-image: linear-gradient(rgba(255, 140, 66, 0), rgba(78, 89, 140, 0)), url("/static/images/logo.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: auto,cover
+		;
+
 	}
 
 		#logo div {
@@ -1969,8 +1965,8 @@ input, select, textarea {
 
 	#nav {
 		position: relative;
-		height: 4em;
-		background: #2a5ba0;
+		height: 6em;
+		background: #414F5C;
 		cursor: default;
 	}
 
@@ -1992,12 +1988,11 @@ input, select, textarea {
 					transition: background-color 0.2s ease-in-out;
 					display: inline-block;
 					margin: 0;
-					padding: 0.5em 1.6em 1.7em 1.6em;
+					padding: 1.5em 1.6em 1.7em 1.6em;
 					letter-spacing: 0.06em;
 					text-decoration: none;
 					font-weight: 700;
 					font-size: 1.2em;
-					font-family: "Open Sans", Helvetica, sans-serif;
 					outline: 0;
 					color: #ccc;
 					color: rgba(255, 255, 255, 0.75);
@@ -2013,8 +2008,8 @@ input, select, textarea {
 		}
 
 		#nav li.current_page_item a {
-			background: #d86869;
-			border-top-color: #f9c784;
+			background: #37434E;
+			border-top-color: #D86869;
 			color: #fff;
 		}
 
@@ -2082,16 +2077,14 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		padding: 13em 5em;
+		padding: 8em 5em;
 		background: #37434E;
-		border-radius: 8px 8px 0 0;
-		border-top: 0 !important;
-		background-image: linear-gradient(rgba(255, 140, 66, 0), rgba(78, 89, 140, 0)), url("/static/images/logo.jpg");
+		background-image: linear-gradient(rgba(255, 140, 66, 0), rgba(78, 89, 140, 0)), url("/static/images/logo-page.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: auto, cover;
 		text-align: center;
-
+		color: #fff;
 	}
 
 		#banner header {
@@ -2103,14 +2096,6 @@ input, select, textarea {
 				padding: 0;
 				letter-spacing: 0.05em;
 				font-size: 4em;
-				color: #FFF;
-			}
-
-			#banner header h1 {
-				margin: 0;
-				padding-top: 0.5em;
-				letter-spacing: 0.05em;
-				font-size: 3em;
 				color: #FFF;
 			}
 
@@ -2168,7 +2153,7 @@ input, select, textarea {
 	#main {
 		position: relative;
 		padding: 5em 5em;
-		background: #f9c784;
+		background: #fff;
 	}
 
 		#main input[type="submit"],
@@ -2293,11 +2278,10 @@ input, select, textarea {
 
 	#footer {
 		position: relative;
-		padding: 1em 5em 1.5em 5em;
-		background: #fcaf58;
+		padding: 2em 5em 1.5em 5em;
+		background: #414F5C;
 		color: #FFF;
 		margin-bottom: 5em;
-		text-align: center;
 	}
 
 		#footer .copyright {
@@ -2312,7 +2296,7 @@ input, select, textarea {
 
 	#featured {
 		position: relative;
-		padding: 2em 8em;
+		padding: 5em 5em;
 	}
 
 		#featured h3 {
@@ -2320,7 +2304,6 @@ input, select, textarea {
 			letter-spacing: 0.10em;
 			font-size: 2em;
 			color: #D86869;
-			font-family: Oswald, Helvetica, sans-serif;
 		}
 
 		#featured .image {
@@ -2330,11 +2313,7 @@ input, select, textarea {
 
 			#featured .image img {
 				background-color: #c0c5ca;
-				height: auto;
-                min-width: 100%;
-                height: auto;
-
-
+				border-radius: 50%;
 			}
 
 		#featured .link2 {
@@ -2419,8 +2398,8 @@ input, select, textarea {
 
 	#slider {
 		position: relative;
-		height: 150px;
-		background: #ff8c42;
+		height: 320px;
+		background: #D86869;
 		color: #FFF;
 		overflow: hidden;
 	}
@@ -2444,8 +2423,7 @@ input, select, textarea {
 		#slider p {
 			line-height: 1.4em;
 			letter-spacing: 0.05em;
-			font-size: 1.5em;
-			font-family: Oswald, Helvetica, sans-serif;
+			font-size: 2em;
 		}
 
 		#slider .links:hover {
@@ -2456,7 +2434,7 @@ input, select, textarea {
 			width: 800px;
 			height: 320px;
 			overflow: hidden;
-			margin: -5em auto;
+			margin: 0em auto;
 			text-align: center;
 		}
 
@@ -2468,7 +2446,7 @@ input, select, textarea {
 				#slider .viewer .reel .slide {
 					width: 800px !important;
 					height: 320px;
-					padding-top: 8em;
+					padding-top: 4em;
 				}
 
 		#slider .previous-button:before, #slider .next-button:before {
@@ -2736,7 +2714,7 @@ input, select, textarea {
 						position: absolute;
 						left: 7px;
 						top: 7px;
-						background: #2a5ba0;
+						background: rgba(0, 0, 0, 0.2);
 						width: 60px;
 						height: 44px;
 					}
@@ -2778,7 +2756,7 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: ##4e598c;
+				background: #242b30;
 			}
 
 				#navPanel .link {
@@ -2963,20 +2941,6 @@ input, select, textarea {
 				min-width: 320px;
 			}
 
-			#featured .image {
-					float: none;
-					display: block;
-					margin-right: 0em;
-					height: auto;
-                    min-width: 75%;
-				}
-
-					#featured .image img {
-						display: inline-block;
-						height: auto;
-                        min-width: 75%;
-					}
-
 			h2, h3, h4, h5, h6 {
 				font-size: 1.5em;
 			}
@@ -3039,7 +3003,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				padding: 9em 2em 3em 2em;
+				padding: 3em 2em 3em 2em;
 				overflow: hidden;
 			}
 
@@ -3103,14 +3067,13 @@ input, select, textarea {
 					float: none;
 					display: block;
 					margin-right: 0em;
-					height: auto;
-                    min-width: 100%;
 				}
 
 					#featured .image img {
 						display: inline-block;
-						height: auto;
-                        min-width: 100%;
+						width: inherit;
+						background-color: #c0c5ca;
+						border-radius: 50%;
 					}
 
 		/* Extra */
@@ -3169,7 +3132,7 @@ input, select, textarea {
 		/* Slider */
 
 			#slider {
-				height: 150px;
+				height: 260px;
 			}
 
 				#slider .viewer {

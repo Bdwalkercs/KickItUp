@@ -78,11 +78,11 @@ input, select, textarea {
 
 	body {
 		background-color: #23141f;
-		background-attachment: scroll,							fixed;
+		background-attachment: scroll, fixed;
 		background-image: url("images/overlay1.png"), url("../../images/40165.jpg");
-		background-position: top left,						top center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-position: top left, top center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2618,6 +2618,10 @@ input, select, textarea {
 		background-color: #19181a;
 		border-radius: 8px 8px 0 0;
 		border-top: 0 !important;
+		background-image: linear-gradient(rgba(255, 140, 66, 0), rgba(78, 89, 140, 0)), url("/static/images/logo.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: auto, cover;
 		position: relative;
 		text-align: center;
 	}
