@@ -3081,9 +3081,8 @@ input, select, textarea {
 
 					#featured .image img {
 						display: inline-block;
-						width: inherit;
-						background-color: #c0c5ca;
-						border-radius: 50%;
+						max-width: 100%;
+                        height: auto;
 					}
 
 		/* Extra */
