@@ -2318,9 +2318,8 @@ input, select, textarea {
 
 			#featured .image img {
 				background-color: #c0c5ca;
-				object-fit: scale-down;
-				max-width: 100%;
-                min-width: 300px;
+				height: auto;
+                min-width: 100%;
                 height: auto;
 
 
@@ -3081,8 +3080,8 @@ input, select, textarea {
 
 					#featured .image img {
 						display: inline-block;
-						max-width: 100%;
-                        height: auto;
+						height: auto;
+                        min-width: 100%;
 					}
 
 		/* Extra */
