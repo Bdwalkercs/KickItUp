@@ -2318,9 +2318,11 @@ input, select, textarea {
 
 			#featured .image img {
 				background-color: #c0c5ca;
+				object-fit: scale-down;
 				max-width: 100%;
                 min-width: 300px;
                 height: auto;
+
 
 			}
 
