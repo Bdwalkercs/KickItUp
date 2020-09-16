@@ -1066,7 +1066,7 @@ input, select, textarea {
 				}
 
 				.row > .col-12-narrower {
-					width: 50%;
+					width: 100%;
 				}
 
 				.row > .off-12-narrower {
@@ -1383,7 +1383,7 @@ input, select, textarea {
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 15px;
+							padding-top: 0px;
 						}
 
 				.row.gtr-150 {
@@ -2331,7 +2331,8 @@ input, select, textarea {
 
 		#featured .image {
 			float: left;
-			margin-right: 3em;
+			margin-right: 1em;
+			padding-top: 2em;
 		}
 
 			#featured .image img {
@@ -2980,7 +2981,7 @@ input, select, textarea {
 					#featured .image img {
 						display: inline-block;
 						height: auto;
-                        min-width: 75%;
+                        min-width: 50%;
 					}
 
 			h2, h3, h4, h5, h6 {
@@ -3095,7 +3096,7 @@ input, select, textarea {
 		/* Featured */
 
 			#featured {
-				padding: 3em 2em 2em 2em;
+				padding: 1em 2em 2em 2em;
 				text-align: center;
 			}
 
@@ -3108,9 +3109,10 @@ input, select, textarea {
 				#featured .image {
 					float: none;
 					display: block;
-					margin-right: 0em;
+					margin-right: 6em;
+					margin-left: 6em;
 					height: auto;
-                    min-width: 100%;
+                    min-width: 50%;
 				}
 
 					#featured .image img {
