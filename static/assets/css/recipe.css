@@ -79,7 +79,7 @@ input, select, textarea {
 	body {
 		background-color: #23141f;
 		background-attachment: scroll, fixed;
-		background-image: url("images/overlay1.png"), url("../../images/food.jpg");
+		background-image: url("images/overlay1.png"), url("../../images/wood.jpg");
 		background-position: top left, top center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
