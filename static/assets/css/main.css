@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700");
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
 @import url(fontawesome-all.min.css);
 
 /*
@@ -105,7 +106,7 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: "Open Sans", Helvetica, sans-serif;
+		font-family: Lato, Helvetica, sans-serif;
 		font-size: 10pt;
 		line-height: 2em;
 		color: #7a8186;
@@ -126,7 +127,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: bold;
-		color: #37434E;
+		color: #d86869;
 	}
 
 	em, i {
@@ -160,8 +161,13 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table {
+	ul, ol, dl, table {
 		margin-bottom: 1em;
+	}
+
+	p {
+	    margin-bottom: 1em;
+	    font-size: 1.2em;
 	}
 
 	header {
@@ -175,6 +181,7 @@ input, select, textarea {
 			letter-spacing: 0.05em;
 			font-size: 1.6em;
 			font-weight: 700;
+			inline-size: max-content;
 		}
 
 		header .byline {
@@ -1863,7 +1870,7 @@ input, select, textarea {
 		letter-spacing: 0.10em;
 		text-decoration: none;
 		font-size: 1.2em;
-		font-family: Oswald, Helvetica, sans-serif;
+		font-family: Lato, Helvetica, sans-serif;
 		background: #2a5ba0;
 		color: #FFF;
 		border: none;
@@ -1995,9 +2002,8 @@ input, select, textarea {
 					padding: 0.5em 1.6em 1.7em 1.6em;
 					letter-spacing: 0.06em;
 					text-decoration: none;
-					font-weight: 700;
 					font-size: 1.2em;
-					font-family: "Open Sans", Helvetica, sans-serif;
+					font-family: Lato, Helvetica, sans-serif;
 					outline: 0;
 					color: #ccc;
 					color: rgba(255, 255, 255, 0.75);
@@ -2191,7 +2197,7 @@ input, select, textarea {
 
 		#content header h2 {
 			font-size: 2.5em;
-			color: #37434E;
+			color: #d86869;
 		}
 
 		#content header .byline {
@@ -2320,7 +2326,7 @@ input, select, textarea {
 			letter-spacing: 0.10em;
 			font-size: 2em;
 			color: #D86869;
-			font-family: Oswald, Helvetica, sans-serif;
+			font-family: Lato, Helvetica, sans-serif;
 		}
 
 		#featured .image {
@@ -2445,7 +2451,7 @@ input, select, textarea {
 			line-height: 1.4em;
 			letter-spacing: 0.05em;
 			font-size: 1.5em;
-			font-family: Oswald, Helvetica, sans-serif;
+			font-family: Lato, Helvetica, sans-serif;
 		}
 
 		#slider .links:hover {
@@ -2736,7 +2742,7 @@ input, select, textarea {
 						position: absolute;
 						left: 7px;
 						top: 7px;
-						background: #2a5ba0;
+						background: rgba(0, 0, 0, 0.2);
 						width: 60px;
 						height: 44px;
 					}
@@ -2983,7 +2989,7 @@ input, select, textarea {
 
 			section, article {
 				clear: both;
-				margin: 2em 0 2em 0 !important;
+				margin: 0em 0 2em 0 !important;
 			}
 
 				section > :first-child, section:first-child, article > :first-child, article:first-child {
@@ -3094,7 +3100,7 @@ input, select, textarea {
 			}
 
 				#featured h3 {
-					padding: 0.80em 0em 0.50em 0em;
+					padding: 0.0em 0em 0.50em 0em;
 					letter-spacing: 0.10em;
 					font-size: 2em;
 				}
@@ -3205,7 +3211,7 @@ input, select, textarea {
 		/* Sidebar */
 
 			#sidebar {
-				padding-top: 2em;
+				padding-top: 0em;
 			}
 
 			#sidebar2 {

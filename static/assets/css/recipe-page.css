@@ -2618,10 +2618,6 @@ input, select, textarea {
 		background-color: #19181a;
 		border-radius: 8px 8px 0 0;
 		border-top: 0 !important;
-		background-image: linear-gradient(rgba(255, 140, 66, 0), rgba(78, 89, 140, 0)), url("/static/images/logo.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: auto, cover;
 		position: relative;
 		text-align: center;
 	}
@@ -2692,8 +2688,9 @@ input, select, textarea {
 					border-left: solid 1px #313032;
 					display: inline-block;
 					line-height: 3.5em;
-					min-width: 20%;
+					min-width: 16%;
 					padding: 0;
+					font-size:.9em;
 				}
 
 					#header > nav > ul li a {
