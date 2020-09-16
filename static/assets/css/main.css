@@ -86,7 +86,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #4e598c;
+		background: #2a5ba0;
 		background-image: linear-gradient(rgba(255, 140, 66, 0), rgba(78, 89, 140, 0)), url("/static/images/46.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
@@ -1425,7 +1425,7 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 0 auto;
+		margin: -1px auto;
 		width: 936px;
 	}
 
